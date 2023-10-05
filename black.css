@@ -1,0 +1,166 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+
+nav{
+    border-bottom: 1px solid white;
+    
+}
+
+.nav-item>a{
+    color: rgb(163, 153, 153);
+    font-size: small;
+}
+
+
+
+.slide{
+    background-position-y: center;
+    background-position-x: center;
+    background: linear-gradient( rgb(0, 0, 0) 5%, rgba(255,0,0,0) 100%),url(moon.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:84vh;
+}
+
+
+.freccia{
+    position: absolute;
+    left: 90vh;
+    bottom: 30vh;
+    
+}
+
+.bo-blu{
+    border-bottom: 2px solid #2B9DF4;
+      
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white
+}
+
+.lunaCard{
+    height: 600px;
+    width: 800px;
+     }
+
+
+
+.item1{
+        position: relative;
+        
+        }
+        
+        
+.item2{
+    position: relative;
+    top:15vh;
+    right:29.7vh;
+    
+}
+
+.item3{
+    position: relative;
+    top:8vh;
+    left: 15vh;
+    
+}
+
+.item4{
+    position: relative;
+    left:55vh;
+    
+}
+
+.item5{
+    position: relative;
+    top:15vh;
+    left:25.4vh;
+}
+
+.lollo{
+    position: relative;
+    left: 3vh;
+}
+
+.bordo{
+    border-bottom: 2px solid #2B9DF4;
+}
+
+h3{
+    color: #2B9DF4;
+}
+h2{
+    color: white;
+}
+
+.spazio{
+    width: 500px;
+    height:500px;
+}
+
+.mumu{
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    background-color:rgb(0, 0, 0);
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.ultFila1{
+    position: relative;
+    right: 2vh;
+}
+.ultFila2{
+    position: relative;
+    right: 6.5vh;
+}
+
+.mondo{
+    background-image: url(sunrise-1765027_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 500px;
+  
+    
+}
+.mondo{
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url(sunrise-1765027_1920.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:70vh;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    margin-right: 350px; 
+}
+.bar{
+    width: 600px;
+    border-top: 5px solid transparent;
+    border-image:  linear-gradient(45deg, #25b6ff96, #10caef9f) 1;;
+}
